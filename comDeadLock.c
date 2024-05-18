@@ -53,7 +53,7 @@ int main(){
     pthread_mutex_init(&dado1.locker, NULL);//Seta os Locks
     pthread_mutex_init(&dado2.locker, NULL);
 
-   pthread_t tid_1, tid_2;//declarar vari·veis e tipos para threads
+   pthread_t tid_1, tid_2;//declarar vari√°veis e tipos para threads
    pthread_attr_t attr;
    printf("\n 1");
 
